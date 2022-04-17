@@ -28,18 +28,18 @@
 //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
 //                               LGUI, SYM_ESC, SPC_CTL,       LSFT, NUM_ENT,    LALT
 
-  //                      bindings = <
-  // &kp TILDE       &kp Q &kp W &kp F    &kp P       &kp B               &kp J     &kp L           &kp U     &kp Y   &kp SEMI &kp BSPC
-  // &lt NAV_LAY TAB &kp A &kp R &kp S    &kp T       &kp G               &kp M     &kp N           &kp E     &kp I   &kp O    &kp SQT
-  // &mo ALT_MOD     &kp Z &kp X &kp C    &kp D       &kp V               &kp K     &kp H           &kp COMMA &kp DOT &kp FSLH &kp DEL
-  //                             &kp LGUI &lt SYM_LAY &mt LCTRL SPACE     &kp LSHFT &lt NUM_LAY RET &kp LALT
-  //                      >;
                         bindings = <
-   &none &none &none &none &none &none         &none &none &none &none &none &none
-   &none &none &none &none &none &none         &none &none &none &none &none &none
-   &none &none &none &none &none &none         &none &none &none &none &none &none
-                        &none &none &none  &none &none  &none
+   &kp TILDE       &kp Q &kp W &kp F    &kp P       &kp B               &kp J     &kp L           &kp U     &kp Y   &kp SEMI &kp BSPC
+   &lt NAV_LAY TAB &kp A &kp R &kp S    &kp T       &kp G               &kp M     &kp N           &kp E     &kp I   &kp O    &kp SQT
+   &mo ALT_MOD     &kp Z &kp X &kp C    &kp D       &kp V               &kp K     &kp H           &kp COMMA &kp DOT &kp FSLH &kp DEL
+                               &kp LGUI &lt SYM_LAY &mt LCTRL SPACE     &kp LSHFT &lt NUM_LAY RET &kp LALT
                         >;
+  //                      bindings = <
+  // &none &none &none &none &none &none         &none &none &none &none &none &none
+  // &none &none &none &none &none &none         &none &none &none &none &none &none
+  // &none &none &none &none &none &none         &none &none &none &none &none &none
+  //                      &none &none &none  &none &none  &none
+  //                      >;
                 };
 
 
@@ -107,8 +107,7 @@
 //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
 //                                     KC_LGUI, GUI_CTL, KC_LCTL,    KC_LSFT, SFT_ALT, KC_LALT
                         bindings = <
-   //&none &kp PG_UP  &kp UP   &kp PG_DN  &kp P         &none      &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &none
-   &none &kp PG_UP  &kp UP   &kp PG_DN  &kp P         &none      &none        &none        &none        &none        &none        &none
+   &none &kp PG_UP  &kp UP   &kp PG_DN  &kp P         &none      &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &bt BT_CLR
    &none &kp LEFT   &kp DOWN &kp RIGHT  &kp T         &none      &kp LEFT     &kp DOWN     &kp UP       &kp RIGHT    &none        &none
    &none &kp C_PREV &kp C_PP &kp C_NEXT &kp K_MUTE    &none      &kp HOME     &kp PG_DN    &kp PG_UP    &kp END      &none        &none
                                &kp LGUI &kp LG(LCTRL) &kp LCTRL  &kp LSHFT    &kp LS(LALT) &kp LALT
