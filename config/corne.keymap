@@ -66,7 +66,7 @@
    &none &none &none    &none    &none       &none        &none   &kp N7 &kp N8 &kp N9 &kp LBRC &kp RBRC
    &none &none &kp LGUI &kp LALT &kp LCTRL   &kp LSHFT    &kp DOT &kp N4 &kp N5 &kp N6 &kp LPAR &kp RPAR
    &none &none &none    &none    &none       &none        &kp N0  &kp N1 &kp N2 &kp N3 &kp LBKT &kp RBKT
-                        &none    &mo SYM_LAY &SPACE       &none   &trans &none
+                        &none    &mo SYM_LAY &kp SPACE       &none   &trans &none
                         >;
                 };
 
