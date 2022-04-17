@@ -52,12 +52,18 @@
 //    _____,   _____,   _____,   _____,   _____,   _____,                        _____,   _____,   _____,   _____,   _____,   _____,
 //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
 //                                     GUI_CTL, GUI_SPC, CTL_SPC,      _____, SFT_ALT,   _____
-                       bindings = <
-  &trans &trans &trans &trans       &trans        &trans         &trans &trans &trans &trans &trans &trans
-  &trans &trans &trans &trans       &trans        &trans         &trans &trans &trans &trans &trans &trans
-  &trans &trans &trans &trans       &trans        &trans         &trans &trans &trans &trans &trans &trans
-                       &kp LC(LGUI) &kp LG(SPACE) &kp LC(SPACE)  &trans &kp LS(LALT)  &kp LALT
-                       >;
+ //                      bindings = <
+ // &trans &trans &trans &trans       &trans        &trans         &trans &trans &trans &trans &trans &trans
+ // &trans &trans &trans &trans       &trans        &trans         &trans &trans &trans &trans &trans &trans
+ // &trans &trans &trans &trans       &trans        &trans         &trans &trans &trans &trans &trans &trans
+ //                      &kp LC(LGUI) &kp LG(SPACE) &kp LC(SPACE)  &trans &kp LS(LALT)  &kp LALT
+ //                      >;
+                        bindings = <
+   &none &none &none &none &none &none         &none &none &none &none &none &none
+   &none &none &none &none &none &none         &none &none &none &none &none &none
+   &none &none &none &none &none &none         &none &none &none &none &none &none
+                        &none &none &none  &none &none  &none
+                        >;
                 };
 
 
