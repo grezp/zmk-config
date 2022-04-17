@@ -42,6 +42,7 @@
                         >;
                 };
 
+
                 amod_layer {
 //,-----------------------------------------------------.                    ,-----------------------------------------------------.
 //    _____,   _____,   _____,   _____,   _____,   _____,                        _____,   _____,   _____,   _____,   _____,   _____,
@@ -51,19 +52,14 @@
 //    _____,   _____,   _____,   _____,   _____,   _____,                        _____,   _____,   _____,   _____,   _____,   _____,
 //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
 //                                     GUI_CTL, GUI_SPC, CTL_SPC,      _____, SFT_ALT,   _____
-  //                      bindings = <
-  // &trans &trans &trans &trans       &trans        &trans         &trans &trans &trans &trans &trans &trans
-  // &trans &trans &trans &trans       &trans        &trans         &trans &trans &trans &trans &trans &trans
-  // &trans &trans &trans &trans       &trans        &trans         &trans &trans &trans &trans &trans &trans
-  //                      &kp LC(LGUI) &kp LG(SPACE) &kp LC(SPACE)  &trans &kp LS(LALT)  &kp LALT
-  //                      >;
-                        bindings = <
-   &none &none &none &none &none &none         &none &none &none &none &none &none
-   &none &none &none &none &none &none         &none &none &none &none &none &none
-   &none &none &none &none &none &none         &none &none &none &none &none &none
-                        &none &none &none  &none &none  &none
-                        >;
+                       bindings = <
+  &trans &trans &trans &trans       &trans        &trans         &trans &trans &trans &trans &trans &trans
+  &trans &trans &trans &trans       &trans        &trans         &trans &trans &trans &trans &trans &trans
+  &trans &trans &trans &trans       &trans        &trans         &trans &trans &trans &trans &trans &trans
+                       &kp LC(LGUI) &kp LG(SPACE) &kp LC(SPACE)  &trans &kp LS(LALT)  &kp LALT
+                       >;
                 };
+
 
                 num_layer {
 //,-----------------------------------------------------.                    ,-----------------------------------------------------.
@@ -74,18 +70,13 @@
 //   XXXXX,   XXXXX,   XXXXX,   XXXXX,   XXXXX,   XXXXX,                         KC_0,    KC_1,    KC_2,    KC_3, KC_LBRC, KC_RBRC,
 //|--------+--------+--------+--------+--------+--------+--------|   |--------+--------+--------+--------+--------+--------+--------|
 //                                       XXXXX,   L_SYM,  KC_SPC,      XXXXX,   _____,   XXXXX
-  //                      bindings = <
-  // &none &none &none    &none    &none       &none        &none   &kp N7 &kp N8 &kp N9 &kp LBRC &kp RBRC
-  // &none &none &kp LGUI &kp LALT &kp LCTRL   &kp LSHFT    &kp DOT &kp N4 &kp N5 &kp N6 &kp LPAR &kp RPAR
-  // &none &none &none    &none    &none       &none        &kp N0  &kp N1 &kp N2 &kp N3 &kp LBKT &kp RBKT
-  //                      &none    &mo SYM_LAY &kp SPACE    &none   &trans &none
-                        bindings = <
-   &none &none &none &none &none &none         &none &none &none &none &none &none
-   &none &none &none &none &none &none         &none &none &none &none &none &none
-   &none &none &none &none &none &none         &none &none &none &none &none &none
-                        &none &none &none  &none &none  &none
-                        >;
+                       bindings = <
+  &none &none &none    &none    &none       &none        &none   &kp N7 &kp N8 &kp N9 &kp LBRC &kp RBRC
+  &none &none &kp LGUI &kp LALT &kp LCTRL   &kp LSHFT    &kp DOT &kp N4 &kp N5 &kp N6 &kp LPAR &kp RPAR
+  &none &none &none    &none    &none       &none        &kp N0  &kp N1 &kp N2 &kp N3 &kp LBKT &kp RBKT
+                       &none    &mo SYM_LAY &kp SPACE    &none   &trans &none
                 };
+
 
                 sym_layer {
 //,-----------------------------------------------------.                    ,-----------------------------------------------------.
