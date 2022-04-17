@@ -22,11 +22,11 @@
 //,-----------------------------------------------------.                    ,-----------------------------------------------------.
 //    TILD,       Q,       W,       F,       P,       B,                            J,       L,       U,       Y,    SCLN,    BSPC,
 //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-// NAV_TAB,       A,       R,       S,       T,       G,                            M,       N,       E,       I,       O,    QUOT,
+// NAV+TAB,       A,       R,       S,       T,       G,                            M,       N,       E,       I,       O,    QUOT,
 //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
 // ALT_MOD,       Z,       X,       C,       D,       V,                            K,       H,    COMM,     DOT,    SLSH,     DEL,
 //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
-//                               LGUI, SYM_ESC, SPC_CTL,                LSFT, NUM_ENT,    LALT
+//                               LGUI, SYM+ESC, SPC+CTL,                LSFT, NUM+ENT,    LALT
 
                         bindings = <
    &kp TILDE       &kp Q &kp W &kp F    &kp P           &kp B               &kp J     &kp L           &kp U     &kp Y   &kp SEMI &kp BSPC
@@ -34,12 +34,6 @@
    &mo ALT_MOD     &kp Z &kp X &kp C    &kp D           &kp V               &kp K     &kp H           &kp COMMA &kp DOT &kp FSLH &kp DEL
                                &kp LGUI &lt SYM_LAY ESC &mt LCTRL SPACE     &kp LSHFT &lt NUM_LAY RET &kp LALT
                         >;
-  //                      bindings = <
-  // &none &none &none &none &none &none         &none &none &none &none &none &none
-  // &none &none &none &none &none &none         &none &none &none &none &none &none
-  // &none &none &none &none &none &none         &none &none &none &none &none &none
-  //                      &none &none &none  &none &none  &none
-  //                      >;
                 };
 
 
@@ -63,13 +57,13 @@
 
                 num_layer {
 //,-----------------------------------------------------.                    ,-----------------------------------------------------.
-//   XXXXX,   XXXXX,   XXXXX,   XXXXX,   XXXXX,   XXXXX,                        XXXXX,    KC_7,    KC_8,    KC_9, KC_LCBR, KC_RCBR,
+//   XXXXX,   XXXXX,   XXXXX,   XXXXX,   XXXXX,   XXXXX,                        XXXXX,       7,       8,       9,    LCBR,    RCBR,
 //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+---------|
-//   XXXXX,   XXXXX, KC_LGUI, KC_LALT, KC_LCTL, KC_LSFT,                       KC_DOT,    KC_4,    KC_5,    KC_6, KC_LPRN, KC_RPRN,
+//   XXXXX,   XXXXX,    LGUI,    LALT,    LCTL,    LSFT,                          DOT,       4,       5,       6,    LPRN,    RPRN,
 //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+---------|
-//   XXXXX,   XXXXX,   XXXXX,   XXXXX,   XXXXX,   XXXXX,                         KC_0,    KC_1,    KC_2,    KC_3, KC_LBRC, KC_RBRC,
+//   XXXXX,   XXXXX,   XXXXX,   XXXXX,   XXXXX,   XXXXX,                            0,       1,       2,       3,    LBRC,    RBRC,
 //|--------+--------+--------+--------+--------+--------+--------|   |--------+--------+--------+--------+--------+--------+--------|
-//                                       XXXXX,   L_SYM,  KC_SPC,      XXXXX,   _____,   XXXXX
+//                                       XXXXX,   L_SYM,     SPC,      XXXXX,   _____,   XXXXX
                        bindings = <
   &none &none &none    &none    &none       &none        &none   &kp N7 &kp N8 &kp N9 &kp LBRC &kp RBRC
   &none &none &kp LGUI &kp LALT &kp LCTRL   &kp LSHFT    &kp DOT &kp N4 &kp N5 &kp N6 &kp LPAR &kp RPAR
@@ -81,11 +75,11 @@
 
                 sym_layer {
 //,-----------------------------------------------------.                    ,-----------------------------------------------------.
-//   XXXXX, KC_BSLS, KC_PERC, KC_AMPR, KC_HASH,  KC_DLR,                        XXXXX,   XXXXX,   XXXXX,   XXXXX,   XXXXX,   XXXXX,
+//   XXXXX,    BSLS,    PERC,    AMPR,    HASH,     DLR,                        XXXXX,   XXXXX,   XXXXX,   XXXXX,   XXXXX,   XXXXX,
 //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-//   XXXXX, KC_PLUS,  KC_EQL, KC_ASTR, KC_UNDS, KC_CIRC,                      KC_LSFT, KC_LCTL, KC_LALT, KC_LGUI,   XXXXX,   XXXXX,
+//   XXXXX,    PLUS,     EQL,    ASTR,    UNDS,    CIRC,                         LSFT,    LCTL,    LALT,    LGUI,   XXXXX,   XXXXX,
 //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-//   XXXXX,  KC_GRV, KC_EXLM, KC_PIPE, KC_MINS,   KC_AT,                        XXXXX,   XXXXX,   XXXXX,   XXXXX,   XXXXX,   XXXXX,
+//   XXXXX,     GRV,    EXLM,    PIPE,    MINS,      AT,                        XXXXX,   XXXXX,   XXXXX,   XXXXX,   XXXXX,   XXXXX,
 //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
 //                                       XXXXX,   _____,   XXXXX,      XXXXX,   L_NUM,   XXXXX
                         bindings = <
@@ -99,13 +93,13 @@
 
                 nav_layer {
 //,-----------------------------------------------------.                    ,-----------------------------------------------------.
-//   XXXXX, KC_PGUP,   KC_UP, KC_PGDN, KC_VOLU,   XXXXX,                         BT_0,    BT_1,    BT_2,    BT_3,    BT_4,   XXXXX,
+//   XXXXX,    PGUP,      UP,    PGDN,    VOLU,   XXXXX,                         BT_0,    BT_1,    BT_2,    BT_3,    BT_4,   XXXXX,
 //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-//   _____, KC_LEFT, KC_DOWN, KC_RGHT, KC_VOLD,   XXXXX,                      KC_LEFT, KC_DOWN,   KC_UP, KC_RGHT,   XXXXX,   XXXXX,
+//   _____,    LEFT,    DOWN,    RGHT,    VOLD,   XXXXX,                         LEFT,    DOWN,      UP,    RGHT,   XXXXX,   XXXXX,
 //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-//   XXXXX, KC_MPRV, KC_MPLY, KC_MNXT, KC_MUTE,   XXXXX,                      KC_HOME, KC_PGDN, KC_PGUP,  KC_END,   XXXXX,   XXXXX,
+//   XXXXX,    MPRV,    MPLY,    MNXT,    MUTE,   XXXXX,                         HOME,    PGDN,    PGUP,     END,   XXXXX,   XXXXX,
 //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
-//                                     KC_LGUI, GUI_CTL, KC_LCTL,    KC_LSFT, SFT_ALT, KC_LALT
+//                                        LGUI, GUI+CTL,    LCTL,       LSFT, SFT+ALT,    LALT
                         bindings = <
    &none &kp PG_UP  &kp UP   &kp PG_DN  &kp P         &none      &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &bt BT_CLR
    &none &kp LEFT   &kp DOWN &kp RIGHT  &kp T         &none      &kp LEFT     &kp DOWN     &kp UP       &kp RIGHT    &none        &none
