@@ -52,10 +52,10 @@
 //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
 //                                      GUI+CTL, GUI+SPC, CTL+SPC,      _____, SFT+ALT,   _____
                        bindings = <
-  &trans &trans &trans &trans       &trans        &trans             &trans &trans &trans &trans &trans &trans
-  &trans &trans &trans &trans       &trans        &trans             &trans &trans &trans &trans &trans &trans
-  &trans &trans &trans &trans       &trans        &trans             &trans &trans &trans &trans &trans &trans
-                       &kp LC(LGUI) &kp LG(SPACE) &kp LC(SPACE)      &trans &kp LS(LALT)  &kp LALT
+  &trans &trans &trans &trans       &trans        &trans             &trans &trans      &trans   &trans &trans &trans
+  &trans &trans &trans &trans       &trans        &trans             &trans &trans      &trans   &trans &trans &trans
+  &trans &trans &trans &trans       &trans        &trans             &trans &trans      &trans   &trans &trans &trans
+                       &kp LC(LGUI) &kp LG(SPACE) &kp LC(SPACE)      &trans &kp LS(RET) &kp LALT
                        >;
                 };
 
