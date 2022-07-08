@@ -46,7 +46,7 @@
    &lt FUN_LAY TILDE &kp Q &kp W &kp F    &kp P           &kp B               &kp J     &kp L           &kp U     &kp Y   &kp SEMI &kp BSPC
    &lt NAV_LAY TAB   &kp A &kp R &kp S    &kp T           &kp G               &kp M     &kp N           &kp E     &kp I   &kp O    &kp SQT
    &mo ALT_MOD       &kp Z &kp X &kp C    &kp D           &kp V               &kp K     &kp H           &kp COMMA &kp DOT &kp FSLH &kp DEL
-                                 &kp LGUI &lt SYM_LAY ESC &mt LCTRL SPACE     &kp LSHFT &lt NUM_LAY RET &kp LALT
+                                 &kp LGUI &lt SYM_LAY ESC &btm LCTRL SPACE    &kp LSHFT &lt NUM_LAY RET &kp LALT
                         >;
                 };
 
