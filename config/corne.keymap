@@ -131,12 +131,12 @@
 //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
 //   XXXXX,    MPRV,    MPLY,    MNXT,    MUTE,   XXXXX,                         HOME,    PGDN,    PGUP,     END,   XXXXX,   XXXXX,
 //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
-//                                         LGUI, GUI+CTL,    LCTL,       LSFT, SFT+ALT,    LALT
+//                                         LGUI, GUI+CTL,    LCTL,    GUI+ALT, CTL+ALT,    LALT
                         bindings = <
-   &none &kp PG_UP  &kp UP   &kp PG_DN  &kp C_VOL_UP  &none        &none     &kp LC(LG(LEFT)) &kp LC(LG(RIGHT)) &kp LC(LG(UP)) &none &none
-   &none &kp LEFT   &kp DOWN &kp RIGHT  &kp C_VOL_DN  &none        &kp LEFT  &kp DOWN         &kp UP            &kp RIGHT      &none &none
-   &none &kp C_PREV &kp C_PP &kp C_NEXT &kp K_MUTE    &none        &kp HOME  &kp PG_DN        &kp PG_UP         &kp END        &none &none
-                             &kp LGUI   &kp LG(LCTRL) &kp LCTRL    &kp LSHFT &kp LS(LALT)     &kp LALT
+   &none &kp PG_UP  &kp UP   &kp PG_DN  &kp C_VOL_UP  &none        &none        &kp LC(LG(LEFT)) &kp LC(LG(RIGHT)) &kp LC(LG(UP)) &none &none
+   &none &kp LEFT   &kp DOWN &kp RIGHT  &kp C_VOL_DN  &none        &kp LEFT     &kp DOWN         &kp UP            &kp RIGHT      &none &none
+   &none &kp C_PREV &kp C_PP &kp C_NEXT &kp K_MUTE    &none        &kp HOME     &kp PG_DN        &kp PG_UP         &kp END        &none &none
+                             &kp LGUI   &kp LG(LCTRL) &kp LCTRL    &kp LG(LALT) &kp LC(LALT)     &kp LALT
                         >;
                 };
         };
