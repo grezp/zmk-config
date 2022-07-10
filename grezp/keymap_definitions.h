@@ -39,7 +39,7 @@ XXX                &kp GRAVE          &kp EXCL           &kp PIPE           &kp 
 
 #define LAYER_NAV \
 XXX                XXX                XXX                XXX                XXX                XXX                XXX                XXX                XXX                XXX                XXX                 &kp CAPS          \
-XXX                XXX                &kp LALT           &kp LGUI           &kp LCTRL          &kp LSHFT          &kp LEFT           &kp DOWN           &kp UP             &kp RIGHT          XXX                 &kb INS           \
+XXX                XXX                &kp LALT           &kp LGUI           &kp LCTRL          &kp LSHFT          &kp LEFT           &kp DOWN           &kp UP             &kp RIGHT          XXX                 &kp INS           \
 XXX                XXX                XXX                XXX                XXX                XXX                &kp HOME           &kp PG_DN          &kp PG_UP          &kp END            XXX                 XXX               \
                                                          TRANS              TRANS              TRANS              TRANS              TRANS              TRANS
 
