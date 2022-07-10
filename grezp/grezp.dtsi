@@ -32,10 +32,6 @@
 			bindings = <LAYER_ALPHAS>;
 		};
 
-		amod_layer {
-		    bindings = <LAYER_ALT_MODS>;
-		};
-
 		func_layer {
 		   bindings = <LAYER_FUNC>;
 		};
@@ -50,6 +46,10 @@
 
 		nav_layer {
 			bindings = <LAYER_NAV>;
+		};
+
+		med_layer {
+		    bindings = <LAYER_MED>;
 		};
 	};
 };
