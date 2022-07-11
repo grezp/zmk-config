@@ -24,31 +24,31 @@
 };
 
 / {
-	keymap {
-		compatible = "zmk,keymap";
+    keymap {
+        compatible = "zmk,keymap";
 
-		default_layer {
-			bindings = <LAYER_ALPHAS>;
-		};
+        default_layer {
+            bindings = <LAYER_ALPHAS>;
+        };
 
-		func_layer {
-		   bindings = <LAYER_FUNC>;
-		};
+        func_layer {
+            bindings = <LAYER_FUNC>;
+        };
 
-		num_layer {
-		   bindings = <LAYER_NUM>;
-		};
+        num_layer {
+            bindings = <LAYER_NUM>;
+        };
 
-		sym_layer {
-			bindings = <LAYER_SYM>;
-		};
+        sym_layer {
+            bindings = <LAYER_SYM>;
+        };
 
-		nav_layer {
-			bindings = <LAYER_NAV>;
-		};
+        nav_layer {
+            bindings = <LAYER_NAV>;
+        };
 
-		med_layer {
-		    bindings = <LAYER_MED>;
-		};
-	};
+        med_layer {
+            bindings = <LAYER_MED>;
+        };
+    };
 };
