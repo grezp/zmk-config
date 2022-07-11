@@ -6,6 +6,7 @@
 #define LAY_SYM   3
 #define LAY_NAV   4
 #define LAY_MED   5
+#define LAY_CTL   6
 
 #define XXX       &none
 #define TRANS     &trans
@@ -15,7 +16,7 @@
 &kp TILDE         &kp Q             &kp W             &kp F             &kp P             &kp B        /**/     &kp J             &kp L             &kp U             &kp Y             &kp SEMI          &kp BSPC          \
 &lt LAY_MED TAB   &kp A             &hm LALT R        &hm LGUI S        &hm LCTRL T       &kp G        /**/     &kp M             &hm LCTRL N       &hm LGUI E        &hm LALT I        &kp O             &kp SQT           \
 &mo LAY_FUN       &kp Z             &kp X             &kp C             &kp D             &kp V        /**/     &kp K             &kp H             &kp COMMA         &kp DOT           &kp FSLH          &kp DEL           \
-                                                      &mo LAY_NAV       &lt LAY_SYM ESC   &kp SPACE    /**/     &kp LSHFT         &lt LAY_NUM RET   &kp LALT
+                                                      &mo LAY_NAV       &lt LAY_SYM ESC   &kp SPACE    /**/     &kp LSHFT         &lt LAY_NUM RET   &mo LAY_CTL
 /***************************************************************************************************************************************************************************************************************************/
 
 #define LAYER_FUNC \
@@ -58,4 +59,11 @@ XXX               &kp C_PREV        &kp C_PP          &kp C_NEXT        &kp K_MU
                                                       TRANS             TRANS             TRANS        /**/     TRANS             TRANS             TRANS
 /***************************************************************************************************************************************************************************************************************************/
 
+#define LAYER_CTL \
+/**************************************************************************************************************************************************************************************************************************/\
+XXX               XXX               XXX               XXX               XXX               XXX          /**/     XXX               XXX               XXX               XXX               XXX                XXX              \
+&kp LSHFT         &kp LC(Z)         &kp LC(Z)         &kp LC(Z)         &kp LC(Z)         XXX          /**/     &kp LSHFT         &kp LCTRL         &kp LGUI          &kp LALT          XXX                XXX              \
+TRANS             &kp LG(Z)         &kp LG(Z)         &kp LG(Z)         &kp LG(Z)         XXX          /**/     XXX               XXX               XXX               XXX               XXX                XXX              \
+                                                      TRANS             TRANS             TRANS        /**/     TRANS             TRANS             TRANS
+/***************************************************************************************************************************************************************************************************************************/
 
