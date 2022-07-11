@@ -13,17 +13,17 @@
 
 #define LAYER_ALPHAS \
 /**************************************************************************************************************************************************************************************************************************/\
-&kp TILDE         &kp Q             &kp W             &kp F             &kp P             &kp B        /**/     &kp J             &kp L             &kp U             &kp Y             &kp SEMI          &kp BSPC          \
+&lt LAY_FUN TILDE &kp Q             &kp W             &kp F             &kp P             &kp B        /**/     &kp J             &kp L             &kp U             &kp Y             &kp SEMI          &kp BSPC          \
 &lt LAY_MED TAB   &kp A             &hm LALT R        &hm LGUI S        &hm LCTRL T       &kp G        /**/     &kp M             &hm LCTRL N       &hm LGUI E        &hm LALT I        &kp O             &kp SQT           \
 &mo LAY_FUN       &kp Z             &kp X             &kp C             &kp D             &kp V        /**/     &kp K             &kp H             &kp COMMA         &kp DOT           &kp FSLH          &kp DEL           \
-                                                      &mo LAY_NAV       &lt LAY_SYM ESC   &kp SPACE    /**/     &kp LSHFT         &lt LAY_NUM RET   &mo LAY_CTL
+                                                      &mo LAY_NAV       &lt LAY_SYM ESC   &kp SPACE    /**/     &kp LSHFT         &lt LAY_NUM RET   XXX
 /***************************************************************************************************************************************************************************************************************************/
 
 #define LAYER_FUNC \
 /**************************************************************************************************************************************************************************************************************************/\
-XXX               XXX               XXX               XXX               XXX               XXX          /**/     XXX               &kp F7            &kp F8            &kp F9            &kp F10           XXX               \
+XXX               XXX               &kp RET           &kp LSHFT         XXX               XXX          /**/     XXX               &kp F7            &kp F8            &kp F9            &kp F10           XXX               \
 TRANS             &bt BT_SEL 0      &bt BT_SEL 1      &bt BT_SEL 2      &bt BT_SEL 3      &bt BT_CLR   /**/     XXX               &kp F4            &kp F5            &kp F6            &kp F11           XXX               \
-XXX               XXX               &kp RET           &kp LSHFT         XXX               XXX          /**/     XXX               &kp F1            &kp F2            &kp F3            &kp F12           XXX               \
+XXX               XXX               XXX               XXX               XXX               XXX          /**/     XXX               &kp F1            &kp F2            &kp F3            &kp F12           XXX               \
                                                       TRANS             TRANS             TRANS        /**/     TRANS             TRANS             TRANS
 /***************************************************************************************************************************************************************************************************************************/
 
