@@ -50,5 +50,9 @@
         med_layer {
             bindings = <LAYER_MED>;
         };
+
+        ctl_layer {
+            bindings = <LAYER_CTL>;
+        };
     };
 };
