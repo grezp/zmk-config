@@ -62,8 +62,8 @@ XXX               &kp C_PREV        &kp C_PP          &kp C_NEXT        &kp K_MU
 #define LAYER_CTL \
 /**************************************************************************************************************************************************************************************************************************/\
 XXX               XXX               XXX               XXX               XXX               XXX          /**/     XXX               XXX               XXX               XXX               XXX                XXX              \
-&kp LSHFT         &kp LC(Z)         &kp LC(Z)         &kp LC(Z)         &kp LC(Z)         XXX          /**/     &kp LSHFT         &kp LCTRL         &kp LGUI          &kp LALT          XXX                XXX              \
-TRANS             &kp LG(Z)         &kp LG(Z)         &kp LG(Z)         &kp LG(Z)         XXX          /**/     XXX               XXX               XXX               XXX               XXX                XXX              \
+&kp LSHFT         &kp LC(Z)         &kp LC(X)         &kp LC(C)         &kp LC(V)         XXX          /**/     &kp LSHFT         &kp LCTRL         &kp LGUI          &kp LALT          XXX                XXX              \
+TRANS             &kp LG(Z)         &kp LG(X)         &kp LG(C)         &kp LG(V)         XXX          /**/     XXX               XXX               XXX               XXX               XXX                XXX              \
                                                       TRANS             TRANS             TRANS        /**/     TRANS             TRANS             TRANS
 /***************************************************************************************************************************************************************************************************************************/
 
