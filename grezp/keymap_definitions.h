@@ -38,8 +38,8 @@ XXX               XXX               XXX               XXX               XXX     
 #define LAYER_SYM \
 /**************************************************************************************************************************************************************************************************************************/\
 XXX               &kp BSLH          &kp PRCNT         &kp AMPS          &kp POUND         &kp DLLR     /**/     XXX               XXX               XXX               XXX               XXX                XXX              \
-XXX               &kp PLUS          &kp EQUAL         &kp ASTRK         &kp UNDER         &kp CARET    /**/     &kp LSHFT         &kp LCTRL         &kp LGUI          &kp LALT          XXX                XXX              \
-XXX               &kp GRAVE         &kp EXCL          &kp PIPE          &kp MINUS         &kp AT       /**/     XXX               XXX               XXX               XXX               XXX                XXX              \
+&kp GRAVE         &kp PLUS          &kp EQUAL         &kp ASTRK         &kp UNDER         &kp CARET    /**/     &kp LSHFT         &kp LCTRL         &kp LGUI          &kp LALT          XXX                XXX              \
+XXX               XXX               &kp EXCL          &kp PIPE          &kp MINUS         &kp AT       /**/     XXX               XXX               XXX               XXX               XXX                XXX              \
                                                       TRANS             TRANS             TRANS        /**/     TRANS             TRANS             TRANS
 /***************************************************************************************************************************************************************************************************************************/
 
