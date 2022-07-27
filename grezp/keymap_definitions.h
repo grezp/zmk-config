@@ -14,9 +14,9 @@
 #define LAYER_ALPHAS \
 /**************************************************************************************************************************************************************************************************************************/\
 &lt LAY_FUN TILDE &kp Q             &kp W             &kp F             &kp P             &kp B        /**/     &kp J             &kp L             &kp U             &kp Y             &kp SEMI          &kp BSPC          \
-&lt LAY_MED TAB   &kp A             &hm LALT R        &hm LGUI S        &hm LCTRL T       &kp G        /**/     &kp M             &hm LCTRL N       &hm LGUI E        &hm LALT I        &kp O             &kp SQT           \
+&mo LAY_MED       &kp A             &hm LALT R        &hm LGUI S        &hm LCTRL T       &kp G        /**/     &kp M             &hm LCTRL N       &hm LGUI E        &hm LALT I        &kp O             &kp SQT           \
 &mo LAY_CTL       &kp Z             &kp X             &kp C             &kp D             &kp V        /**/     &kp K             &kp H             &kp COMMA         &kp DOT           &kp FSLH          &kp DEL           \
-                                                      &mo LAY_NAV       &lt LAY_SYM ESC   &kp SPACE    /**/     &kp LSHFT         &lt LAY_NUM RET   &kp LS(LG(LC(LALT)))
+                                                      &lt LAY_NAV TAB   &lt LAY_SYM ESC   &kp SPACE    /**/     &kp LSHFT         &lt LAY_NUM RET   &kp LS(LG(LC(LALT)))
 /***************************************************************************************************************************************************************************************************************************/
 
 #define LAYER_FUNC \
